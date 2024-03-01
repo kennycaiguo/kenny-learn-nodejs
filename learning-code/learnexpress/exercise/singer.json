@@ -1,0 +1,28 @@
+{
+    "singers":[
+        {
+            "singer_name":"周杰伦",
+            "singer_pic" :"https://th.bing.com/th/id/OIP.ncZ7EbJ0O6geJUNv2UnCNgHaJ4?w=133&h=180&c=7&r=0&o=5&pid=1.7",
+            "other_name" :"Jay Chou",
+            "singer_id":4558,
+            "id":1
+        
+        },
+        {
+            "singer_name":"林俊杰",
+            "singer_pic" :"https://th.bing.com/th/id/OIP.iL1b5tQgcpqMJSLOoIjbugHaJQ?w=153&h=192&c=7&r=0&o=5&pid=1.7",
+            "other_name" :"JJ Lin",
+            "singer_id":4286,
+            "id":2
+        
+        },
+        {
+            "singer_name":"邓紫棋",
+            "singer_pic" :"https://th.bing.com/th/id/OIP.8KgoeStvVSsE7KolSwapiAHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7",
+            "other_name" :"Gloria Tang",
+            "singer_id":13948,
+            "id":3
+        
+        }
+    ]
+}
