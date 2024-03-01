@@ -1,0 +1,20 @@
+{
+  "name": "moduledemo",
+  "version": "1.0.0",
+  "description": "demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./index.js",
+    "start": "nodemon ./server.js"
+  },
+  "author": "kenny cai",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "less": "^4.2.0"
+  }
+}
