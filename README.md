@@ -11,3 +11,6 @@ The Node.js® Website  :  https://github.com/nodejs/nodejs.org <br/>
 awesome-nodejs          :  https://github.com/sindresorhus/awesome-nodejs <br/>
 The-server-of-e-commerce : https://github.com/seeyuyu/The-server-of-e-commerce <br/>
 nodejs-learning-guide    : https://github.com/chyingp/nodejs-learning-guide <br/>
+### mongodb可视化工具NoSQL Manager for MongoDB Freeware
+下载地址：https://www.mongodbmanager.com/download-mongodb-manager-free
+
