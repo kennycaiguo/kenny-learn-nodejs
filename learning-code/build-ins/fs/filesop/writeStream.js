@@ -1,0 +1,7 @@
+let fs = require('fs')
+let ws = fs.createWriteStream("./stream.txt")
+ws.write("善有善报\n")
+ws.write("恶有恶报\n")
+ws.write("不是不报\n")
+ws.write("时候未到\n")
+ws.close()

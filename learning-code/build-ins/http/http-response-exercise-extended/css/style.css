@@ -1,0 +1,12 @@
+table{
+    border: 1px;
+    width: 60%;
+    text-align: center;
+}
+ tr:nth-child(odd){
+   background-color: deeppink;
+}
+ tr:nth-child(even){
+    background-color:  steelblue;
+}
+ 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格</title>
+    <style>
+        table{
+            border: 1px;
+            width: 60%;
+            text-align: center;
+        }
+         tr:nth-child(odd){
+           background-color: deeppink;
+        }
+         tr:nth-child(even){
+            background-color:  steelblue;
+        }
+        /* td:hover{
+            color: orangered;
+           
+        } */
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>row1col1</td>
+            <td>row1col2</td>
+            <td>row1col2</td>
+        </tr>
+        <tr>
+            <td>row2col1</td>
+            <td>row2col2</td>
+            <td>row2col3</td>
+        </tr>
+        <tr>
+            <td>row3col1</td>
+            <td>row3col2</td>
+            <td>row3col3</td>
+        </tr>
+        <tr>
+            <td>row4col1</td>
+            <td>row4col2</td>
+            <td>row4col3</td>
+        </tr>
+    </table>
+    <script>
+        let tds = document.querySelectorAll('td')
+        tds.forEach(item =>{
+            item.onclick = function () {
+                item.style.background = "#ccc"
+            }
+        })
+
+    </script>
+</body>
+</html>
