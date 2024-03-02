@@ -1,0 +1,1 @@
+accounts项目是一个很简单的项目，没有使用数据库，只用lowdb和shortId来模拟数据库，accounts-mongoose是在accounts的基础上增加mongodb数据库功能
