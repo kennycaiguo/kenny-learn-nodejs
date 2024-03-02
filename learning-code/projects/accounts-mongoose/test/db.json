@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "今天真走运，买到很好的菜"
+    }
+  ],
+  "user": {
+    "name": "Mary",
+    "gender": "Female",
+    "age": 30
+  }
+}

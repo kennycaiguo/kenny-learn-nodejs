@@ -1,0 +1,28 @@
+{
+  "accounts": [
+    {
+      "id": "LAEDu5fLq",
+      "title": "拿奖金",
+      "time": "2024-02-08",
+      "type": "1",
+      "account": "2000000000000",
+      "remarks": "yes，baby"
+    },
+    {
+      "id": "A_kdbIhQ9",
+      "title": "给老婆庆祝生日",
+      "time": "2024-01-16",
+      "type": "-1",
+      "account": "30000 ",
+      "remarks": "happy birthday darling"
+    },
+    {
+      "id": "ATK6ARNxo",
+      "title": "年终奖",
+      "time": "2023-12-31",
+      "type": "1",
+      "account": "900000000000",
+      "remarks": "好多哟，我要去旅游"
+    }
+  ]
+}

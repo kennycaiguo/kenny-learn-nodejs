@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>账本列表</title>
+    <script src="https://www.itxst.com/package/jquery-3.5.1/jquery.min.js"></script>
+    <script src="https://www.itxst.com/package/bootstrap-4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://www.itxst.com/package/bootstrap-4.5.0/css/bootstrap.css" rel="stylesheet">
+    <script src="https://www.itxst.com/package/bootstrap-datepicker-1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://www.itxst.com/package/bootstrap-datepicker-1.9.0/locales/bootstrap-datepicker.zh-CN.min.js"></script>
+    <link href="https://www.itxst.com/package/bootstrap-datepicker-1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <style>
+        .red{
+            color:red;
+            border: 1px solid red;
+            background-color: #b1a2a2;
+            border-radius: 7px;
+            padding: 2px;
+        }
+        .blue{
+            color:blue;
+            border: 1px solid rgb(135, 235, 157);
+            border-radius: 7px;
+            background-color: lightblue;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <h2>记账本</h2> 
+            <hr>
+            <% data.forEach(item =>{%>
+                <div>
+                    <ul class="list-group">
+                        <%  let myclass = item.type==='1'?'blue':'red' %>
+                         <li class="list-group-item active"><h4><%=item.time %></h4></li>
+                         <li class="list-group-item">
+                           <table class="table table-borderless">
+                               <tr>
+                                   <td><%=item.title %></td>
+                                   <td> <span class="<%=myclass%>"><%=item.type==='1'?"收入":"支出" %></span></td>
+                                   <td><strong><%=item.account %></strong></td>
+                               </tr>
+                           </table>
+                         </li>
+                         <li class="list-group-item">备注：<%=item.remarks %></li>
+                         
+                       </ul>
+                       <hr>   
+                       <button class="danger">x</button>
+                </div>
+                
+            <%})%>  
+    </div>
+         
+</body>
+</html>
