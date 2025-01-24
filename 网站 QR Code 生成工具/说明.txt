@@ -1,0 +1,6 @@
+这是一个非常有用的功能,可以把用我们的网站url来做成二维码图片,实现扫描进站.
+需要的模块,前提是需要nodejs环境
+ inquirer
+qr-image
+安装方法:
+npm i inquirer qr-image
